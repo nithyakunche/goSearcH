@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta charset="viewport" content="width=device-width,initial-scale=1.0">
+ <title> QUIZ WEBSITE </title>
+ <style type="text/css">
+ body{
+ background-image:url('quizbac.jpeg');
+ }
+.main{
+width:100vw;
+min-height:100vh;
+place-items:center;
+display:grid;
+}
+
+ *{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:"Josefin Sans",sans-serif;
+ font-weight:300;
+ }
+
+.inner{
+width:50vw;
+background-color:#fff;
+padding:2rem 2rem;
+border-radius:1rem;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+.inner h2{
+font-size:2rem;
+font-weight:400;
+margin:1rem 0 2rem 0;
+}
+.inner li{
+font-size:1.5rem;
+margin:1.5rem;
+list-style:none;
+
+}
+input{
+cursor:pointer;
+}
+#submit,.btn
+{
+padding:1rem 3rem;
+outline:none;
+font-size:1rem;
+display:block;
+margin:auto;
+border:none;
+text-transform:uppercase;
+color:#fff;
+background-color:#74b9ff;
+margin-top:2rem;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+cursor:pointer;
+}
+#submit:hover{
+background-color:#0984e3;
+}
+#showScore{
+background-color:#dfe6e9;
+margin-top:1rem;
+padding:1rem 2rem;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+#showScore h3{
+font-size:1.5rem;
+text-align:center;
+}
+#showScore .btn{
+margin-top:1rem;
+background-color:#55efc4;
+color:#2d3436;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+#showScore .btn{
+background-color:#00b894;
+color:#fff;
+}
+
+.scoreArea{
+display:none;
+}
+</style>
+ </head>
+ <body>
+  <div class="main">
+      <div class="inner">
+	     <h2 class="question">Question comes here </h2>
+		 <ul>
+		   <li>
+		      <input type="radio" name="answer" id="ans1" class="answer">
+			  <label for="ans1" id="option1">Answer option </label>
+			</li>
+			 <li>
+		      <input type="radio" name="answer" id="ans2" class="answer">
+			  <label for="ans2" id="option2">Answer option </label>
+			</li>
+			 <li>
+		      <input type="radio" name="answer" id="ans3" class="answer">
+			  <label for="ans3" id="option3">Answer option </label>
+			</li>
+			 <li>
+		      <input type="radio" name="answer" id="ans4" class="answer">
+			  <label for="ans4" id="option4">Answer option </label>
+			</li>
+		</ul>
+		<button id="submit"> submit </button>
+		<div id="showScore" class="scoreArea"> </div>
+	  </div>
+	</div>
+	<script src="hard.js"></script>
+	</body>
+ </html>

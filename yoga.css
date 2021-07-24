@@ -1,0 +1,84 @@
+body{
+	background-color:#daa520;
+	
+}
+p{
+	font-size:20px;
+	font-family:courier;
+    color:#2f4f4f;
+}
+h1{
+	font-size:30px;
+	font-family:courier;
+	text-align:center;
+}
+#button1,.btn
+{
+padding:1rem 3rem;
+outline:None;
+font-size:1rem;
+display:block;
+margin:auto;
+///margin:0 0 0 2rem;
+border:none;
+font-style:courier;
+color:#fff;
+background-color:#bdb76b;
+margin-top:3rem;
+//border-radius:1rem;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+#button1:hover{
+background-color:#b8860b;
+}
+h3{
+	font-family:courier;
+	color:black;
+}
+#button2,.btn
+{
+padding:1rem 3rem;
+outline:None;
+font-size:1rem;
+display:block;
+margin:auto;
+border:none;
+font-style:courier;
+color:#fff;
+background-color:pink;
+margin-top:3rem;
+//border-radius:1rem;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+#button2:hover{
+background-color:red;
+}
+.scroll-left {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+ background:#ffffe0;
+ color: orange;
+ border: 1px solid orange;
+}
+.scroll-left p {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+ 0%   {
+ transform: translateX(100%); 		
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+}

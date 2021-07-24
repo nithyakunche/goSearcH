@@ -1,0 +1,50 @@
+button {
+        width: 80;
+        height: 80;
+        font-size: 25;
+        border: solid;
+}
+body{
+background-image: url('calciimage.jpg');
+
+}	
+.button{
+        width:70;
+        height:60;
+        font-size:30;
+        border:red;
+        color:#20B2AA;
+        background-color:white;
+}		
+.textinput {
+        width: 590;
+        height: 50;
+        border: solid;
+        font-size: 25;
+        color: #43d995;
+}
+      
+.main {
+        position: absolute;
+        border: solid;
+        background: linear-gradient(#DAA520,#FF7F50);
+}
+#button2,.btn
+{
+padding:1rem 3rem;
+outline:None;
+font-size:1rem;
+display:block;
+float:right;
+margin:auto;
+border:none;
+font-style:courier;
+color:#fff;
+background-color:blue;
+margin-top:3rem;
+//border-radius:1rem;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+#button2:hover{
+background-color:red;
+}

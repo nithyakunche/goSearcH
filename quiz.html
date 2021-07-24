@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Quiz</title>
+<style type="text/css">
+ body{
+        background-image: url(quiz.jpeg);
+      }
+h1{
+	  text-align:center;
+	  color:black;
+	  font-size:40px;
+	  font-family:courier;
+	  }
+.main{
+width:100vw;
+min-height:100vh;
+place-items:center;
+//display:grid;
+}
+.inner{
+margin:2rem 0 2rem 20rem;
+width:40vw;
+background-color:#ffa07a;
+padding:2rem 2rem;
+border-radius:1rem;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+.inner h2{
+text-align:center;
+font-size:2rem;
+font-weight:400;
+margin:1rem 0 2rem 0;
+}
+.inner li{
+
+list-style:none;
+
+}
+
+#submit,.btn
+{
+padding:1rem 3rem;
+outline:none;
+font-size:1rem;
+display:block;
+margin:auto;
+border:none;
+text-transform:uppercase;
+color:#fff;
+background-color:#000080;
+margin-top:2rem;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+cursor:pointer;
+}
+#submit:hover{
+background-color:#0984e3;
+}
+#button2,.btn
+{
+padding:1rem 3rem;
+outline:None;
+font-size:1rem;
+display:block;
+float:right;
+margin:auto;
+border:none;
+font-style:courier;
+color:#fff;
+background-color:pink;
+margin-top:3rem;
+//border-radius:1rem;
+box-shadow:0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+}
+#button2:hover{
+background-color:red;
+}
+.ins
+{
+font-size:20px;
+font-weight:bold;
+//text-align:center;
+}
+.font1
+{
+font-size:40px;
+text-align:center;
+color:red;
+}
+</style>
+ </head>
+ <body>
+ <h1>QUIZ TIME!!</h1>
+ <p align="right">
+   <a href="students.html">
+  <input type="button" id="button2" value="BACK TO HOMEPAGE" style="color:blue"/></a>
+  </p>
+  <div class="main">
+      <div class="inner">
+	     <h2>SELECT LEVEL </h2>
+		 <ul>
+		   <li>
+		   <a href="easy.html">
+		   <button id="submit"> Easy </button>
+		   </a>
+		   </li>
+		   <li>
+		   <a href="medium.html">
+		   <button id="submit"> Medium </button>
+		   </a>
+		   </li>
+		   <li>
+		   <a href="hard.html">
+		   <button id="submit"> Hard </button>
+		   </a>
+		   </li>
+		 </ul>
+	  </div>
+	  <p class="ins"> 1.This Quiz consists of 10 multiple-choice questions.Each Quesion will have four choices.</br>
+	                  2.You can choose one option.</br>
+					  3.Each Question carries 1 Mark.</br>
+					  4.You can skip the question if needed,on clicking the submit button.</br>
+					  5.There will be no negative marks.</br>
+					  6.At the end of the quiz, score will be displayed.</br>
+					  
+	  </p>
+	  <p class="font1">GOOD LUCK..</p>
+	</div>
+  
+  </body>
+  </html>
